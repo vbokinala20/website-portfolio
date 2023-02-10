@@ -6,8 +6,8 @@ import {
   SkillsProps,
   TimelineProps,
 } from "../types/types";
-export const URL = "https://awesome-portfolio.piyushmehta.com";
-export const NAME = "Piyush Mehta";
+export const URL = "https://website-portfolio.vineethbokinala.com";
+export const NAME = "Vineeth Bokinala";
 
 export const SECTIONS = ["Home", "Experience", "Projects", "Skills"];
 export const HERO_IMAGE = "https://picsum.photos/id/1005/1600/1400";
@@ -21,7 +21,7 @@ export const MENU: MenuProps[] = [
 
 export const GREETING_TEXT = "Hello, There";
 export const GREETING_DESCRIPTION =
-  "Busy Developing a side project which will eventually be never done ";
+  "Currently busy Working on university project which will eventually be never done ";
 
 export const EXPERIENCE: TimelineProps[] = [
   {
@@ -113,32 +113,32 @@ export const projects: ProjectCardProps[] = [
 export const skills: SkillsProps[] = [
   {
     id: 1,
-    skill: "Javascript",
-    level: Math.floor(Math.random() * 100) + 1,
-  },
-  {
-    id: 2,
-    skill: "React",
-    level: Math.floor(Math.random() * 100) + 1,
-  },
-  {
-    id: 3,
-    skill: "CSS",
-    level: Math.floor(Math.random() * 100) + 1,
-  },
-  {
-    id: 4,
-    skill: "HTML",
-    level: Math.floor(Math.random() * 100) + 1,
-  },
-  {
-    id: 5,
     skill: "Java",
     level: Math.floor(Math.random() * 100) + 1,
   },
   {
+    id: 2,
+    skill: "Tableau",
+    level: Math.floor(Math.random() * 100) + 1,
+  },
+  {
+    id: 3,
+    skill: "JavaScript",
+    level: Math.floor(Math.random() * 100) + 1,
+  },
+  {
+    id: 4,
+    skill: "SQL",
+    level: Math.floor(Math.random() * 100) + 1,
+  },
+  {
+    id: 5,
+    skill: "Haskell",
+    level: Math.floor(Math.random() * 100) + 1,
+  },
+  {
     id: 6,
-    skill: "Googling",
+    skill: "Python",
     level: Math.floor(Math.random() * 100) + 1,
   },
 ];
